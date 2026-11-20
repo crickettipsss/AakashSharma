@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#020817">
+<title>AAKASH SHARMA</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100svh;
+  background: #020817;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 390px;
+  text-align: center;
+  padding: 20px 15px;
+  border: 1px solid #087cff;
+  border-radius: 20px;
+  background: linear-gradient(160deg,#061c3d,#020817 65%);
+  box-shadow: 0 0 18px #006aff55;
+}
+
+.logo {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00c8ff;
+  box-shadow: 0 0 15px #008cff;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: clamp(27px, 8vw, 36px);
+  font-weight: 900;
+  color: white;
+  text-shadow: 0 0 10px #008cff;
+  line-height: 1.1;
+}
+
+h1 span {
+  color: #ffe600;
+}
+
+.line {
+  width: 75%;
+  height: 2px;
+  background: #ffe600;
+  margin: 12px auto;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #e8f3ff;
+  margin-bottom: 18px;
+}
+
+.join-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 65px;
+  padding: 12px 8px;
+  border-radius: 14px;
+  text-decoration: none;
+  background: linear-gradient(100deg,#008cff,#0045d9);
+  border: 2px solid #39d9ff;
+  box-shadow: 0 0 16px #008cff88;
+  color: white;
+  font-size: clamp(17px, 5vw, 23px);
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.join-btn:active {
+  transform: scale(.97);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+  margin-top: 23px;
+}
+
+.feature {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+  padding: 5px 2px;
+}
+
+.feature span {
+  display: block;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+
+.feature b {
+  color: #ffe600;
+}
+
+.footer {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #174b80;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffe600;
+}
+
+@media(max-height:650px) {
+  .container {
+    padding: 12px;
+  }
+  .logo {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 7px;
+  }
+  .line {
+    margin: 8px auto;
+  }
+  .subtitle {
+    margin-bottom: 12px;
+  }
+  .features {
+    margin-top: 14px;
+  }
+  .footer {
+    margin-top: 10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <img src="logo.jpg" class="logo" alt="Aakash Sharma Logo">
+
+  <h1>AAKASH <span>SHARMA</span></h1>
+
+  <div class="line"></div>
+
+  <p class="subtitle">
+    🏏 Cricket Tips • Match Updates<br>
+    Predictions & More...
+  </p>
+
+  <a class="join-btn"
+     href="https://links.gemspace.com/join/AakashSharma2015">
+     ⬇ DOWNLOAD & JOIN NOW
+  </a>
+
+  <div class="features">
+
+    <div class="feature">
+      <span>👥</span>
+      Join Our<br><b>Channel</b>
+    </div>
+
+    <div class="feature">
+      <span>🏆</span>
+      Get Best<br><b>Tips</b>
+    </div>
+
+    <div class="feature">
+      <span>⚡</span>
+      Stay Ahead<br><b>Always</b>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    LET'S GROW TOGETHER
+  </div>
+
+</div>
+
+</body>
+</html>
